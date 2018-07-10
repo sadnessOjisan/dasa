@@ -4,5 +4,13 @@
   "main": "index.js",
   "repository": "https://github.com/sadnessOjisan/dasa.git",
   "author": "sadness_ojisan <sadness.ojisan@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "styled-components": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.6"
+  }
 }
