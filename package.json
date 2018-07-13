@@ -5,12 +5,25 @@
   "repository": "https://github.com/sadnessOjisan/dasa.git",
   "author": "sadness_ojisan <sadness.ojisan@gmail.com>",
   "license": "MIT",
+  "devDependencies": {
+    "@storybook/addon-info": "^3.4.8",
+    "@storybook/addon-knobs": "^3.4.8",
+    "@storybook/react": "4.0.0-alpha.3",
+    "@types/jest": "^23.1.5",
+    "@types/react": "^16.4.6",
+    "awesome-typescript-loader": "^5.2.0",
+    "babel-core": "^6.26.3",
+    "jest": "^23.4.1",
+    "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "storybook-addon-jsx": "^5.3.0",
+    "ts-jest": "^23.0.0",
+    "typescript": "^2.9.2"
+  },
   "dependencies": {
     "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "styled-components": "^3.3.3"
+    "react-dom": "^16.4.1"
   },
-  "devDependencies": {
-    "@types/react": "^16.4.6"
+  "scripts": {
+    "storybook": "start-storybook -p 6006 -c .storybook"
   }
 }
