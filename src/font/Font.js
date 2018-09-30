@@ -11,7 +11,7 @@ const Font = (props) => {
 
 const StyledText = styled.span`
   display: flex;
-  color: ${props.color}
+  color: ${props=>props.color}
 `
 
 export default Font

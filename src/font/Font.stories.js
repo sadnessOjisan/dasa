@@ -8,8 +8,6 @@ storiesOf('Font', module)
   .add('normal', () => <Font>Hello Font</Font>)
   .add('red', () => (
     <Font color='red'>
-      <span role="img" aria-label="so cool">
-        😀 😎 👍 💯
-      </span>
+      Hello Font
     </Font>
   ));
