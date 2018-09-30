@@ -1,4 +1,4 @@
-import Center from './center/Center'
-import Font from './font/Font'
+import Center from './components/center/Center'
+import Font from './components/font/Font'
 
 export {Center, Font}

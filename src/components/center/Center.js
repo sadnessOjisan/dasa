@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const Center = (props) => {
     const {className, children, vertical, horizontal} = props
