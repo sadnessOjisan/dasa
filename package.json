@@ -1,7 +1,7 @@
 {
   "name": "dasa",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
+  "private": false,
   "dependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
@@ -9,6 +9,7 @@
     "react-scripts": "1.1.5",
     "styled-components": "^3.4.9"
   },
+  "main": "./src/index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
