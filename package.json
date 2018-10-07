@@ -1,30 +1,42 @@
 {
   "name": "dasa",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "private": false,
   "dependencies": {
     "prop-types": "^15.6.2",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-scripts": "1.1.5",
-    "styled-components": "^3.4.9"
+    "react-scripts": "1.1.5"
   },
-  "main": "./src/index.js",
+  "main": "/dist/bundle.js",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "webpack",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
   },
+  "peerDependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "styled-components": "^3.4.9"
+  },
   "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
     "@kadira/storybook": "^2.21.0",
     "@storybook/addon-actions": "^3.4.11",
     "@storybook/addon-links": "^3.4.11",
     "@storybook/addons": "^3.4.11",
     "@storybook/react": "^3.4.11",
-    "babel-core": "^6.26.3",
-    "babel-runtime": "^6.26.0"
+    "babel-loader": "^8.0.4",
+    "babel-plugin-styled-components": "^1.8.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-runtime": "^6.26.0",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
+    "url-loader": "^1.1.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
   }
 }

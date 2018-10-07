@@ -6,10 +6,6 @@
 # testing
 /coverage
 
-# production
-/build
-/dist
-
 # misc
 .DS_Store
 .env.local
@@ -20,7 +16,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
 # storybook
 /storybook-static
-
 !.gitkeep
+.storybook
+
+# dev
+/src
+/public
