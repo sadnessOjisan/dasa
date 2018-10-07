@@ -14,4 +14,4 @@ const StyledText = styled.span`
   color: ${props=>props.color}
 `
 
-export default Font
+export default Font;

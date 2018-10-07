@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Center = (props) => {
     const {className, children, vertical, horizontal} = props
     return (
-        <Wrapper className={className} horizontal vertical={vertical === false}>
+        <Wrapper className={className} horizontal={horizontal === false} vertical={vertical === false}>
           {children}
         </Wrapper>)
 }
