@@ -1,6 +1,6 @@
 {
   "name": "dasa",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "private": false,
   "dependencies": {
     "prop-types": "^15.6.2",
