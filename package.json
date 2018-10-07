@@ -1,6 +1,6 @@
 {
   "name": "dasa",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "private": false,
   "dependencies": {
     "prop-types": "^15.6.2",
@@ -9,7 +9,7 @@
     "react-scripts": "1.1.5",
     "styled-components": "^3.4.9"
   },
-  "main": "./dist/bundle.js",
+  "main": "/dist/bundle.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "webpack",
