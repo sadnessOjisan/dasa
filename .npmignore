@@ -20,6 +20,7 @@ yarn-error.log*
 # storybook
 /storybook-static
 !.gitkeep
+.storybook
 
 # dev
 /src
