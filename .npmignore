@@ -25,3 +25,8 @@ yarn-error.log*
 # dev
 /src
 /public
+
+# config
+.babelrc
+dist/.gitkeep
+webpack.config.js
