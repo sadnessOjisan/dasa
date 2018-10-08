@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, {keyframes} from 'styled-components';
 
 const Blink = (props) => {
     const {className, children, vertical, horizontal} = props
@@ -10,11 +10,11 @@ const Blink = (props) => {
 }
 
 const Blinker = keyframes`
-  from {
+  0% {
     opacity: 0;
   }
 
-  to {
+  75% {
     opacity: 1;
   }
 `;
