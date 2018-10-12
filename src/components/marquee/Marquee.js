@@ -2,7 +2,7 @@ import React from 'react';
 import styled, {keyframes} from 'styled-components';
 
 const Marquee = (props) => {
-    const {className, children, vertical, horizontal} = props
+    const {className, children} = props
     return (
         <Wrapper className={className} >
           {children}
