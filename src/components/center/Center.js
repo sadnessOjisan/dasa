@@ -1,18 +1,24 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
-const Center = (props) => {
-    const {className, children, vertical, horizontal} = props
-    return (
-        <Wrapper className={className} horizontal={horizontal === true} vertical={vertical === true}>
-          {children}
-        </Wrapper>)
-}
+const Center = props => {
+  const { className, children, vertical, horizontal } = props;
+  return (
+    <Wrapper
+      className={className}
+      horizontal={horizontal === true}
+      vertical={vertical === true}
+    >
+      {children}
+    </Wrapper>
+  );
+};
 
 const Wrapper = styled.div`
   display: flex;
-  align-items: ${props => props.vertical && 'center'}; 
-  justify-content: ${props => props.horizontal && 'center'}; 
-`
+  height: 100%;
+  align-items: ${props => props.vertical && "center"};
+  justify-content: ${props => props.horizontal && "center"};
+`;
 
-export default Center
+export default Center;
