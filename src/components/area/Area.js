@@ -4,7 +4,13 @@ import styled from "styled-components";
 const Area = props => {
   const { className, children, width, height, backgroundColor, space } = props;
   return (
-    <Wrapper className={className} width={width} height={height} backgroundColor={backgroundColor} space={space}>
+    <Wrapper
+      className={className}
+      width={width}
+      height={height}
+      backgroundColor={backgroundColor}
+      space={space}
+    >
       {children}
     </Wrapper>
   );

@@ -22,8 +22,8 @@ export {
   OutlineText,
   GradationText,
   Rotator,
-  Zoom, 
-  Title, 
-  Color, 
+  Zoom,
+  Title,
+  Color,
   Area
 };
