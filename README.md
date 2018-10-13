@@ -21,6 +21,10 @@ In develop this library, I have taken care of old fashion. This library is also 
 ## How to use
 
 ```
+npm i --save dasa
+```
+
+```
 import React from 'react'
 import {Center, Marquee, Blink} from 'dasa'
 
