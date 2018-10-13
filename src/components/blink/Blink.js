@@ -2,9 +2,9 @@ import React from 'react';
 import styled, {keyframes} from 'styled-components';
 
 const Blink = (props) => {
-    const {className, children, vertical, horizontal} = props
+    const {className, children, speed} = props
     return (
-        <Wrapper className={className} >
+        <Wrapper className={className} speed={speed} >
           {children}
         </Wrapper>)
 }
@@ -20,7 +20,7 @@ const Blinker = keyframes`
 `;
 
 const Wrapper = styled.div`
-animation: ${Blinker} 0.15s step-end infinite;
+animation: ${Blinker} ${props=>props.speed?props.speed:0.15}s step-end infinite;
 `
 
 export default Blink

@@ -9,4 +9,12 @@ storiesOf('Blink', module)
     <Blink>
       😀 😎 👍 💯
     </Blink>
+  )).add('speedy', () => (
+    <Blink speed={0.05}>
+      😀 😎 👍 💯
+    </Blink>
+  )).add('slowly', () => (
+    <Blink speed={1}>
+      😀 😎 👍 💯
+    </Blink>
   ));
