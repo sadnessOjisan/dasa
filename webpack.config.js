@@ -1,35 +1,36 @@
-const path = require('path');
-const webpack = require('webpack');
+const path = require("path");
+const webpack = require("webpack");
 
 module.exports = {
-  mode: 'production',
-  entry: './src/index.js',
+  mode: "production",
+  entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
-    libraryTarget: 'commonjs2'
+    path: path.resolve(__dirname, "dist"),
+    filename: "bundle.js",
+    libraryTarget: "commonjs2"
   },
   module: {
-    rules: [{
+    rules: [
+      {
         test: /\.js/,
         exclude: /node_modules/,
-        use: 'babel-loader',
+        use: "babel-loader"
       },
       {
         test: /\.css/,
         use: [
-          'style-loader',
+          "style-loader",
           {
-            loader: 'css-loader',
+            loader: "css-loader",
             options: {
-              url: false,
-            },
-          },
-        ],
-      },
-    ],
+              url: false
+            }
+          }
+        ]
+      }
+    ]
   },
   resolve: {
-    extensions: ['.js', '.json'],
-  },
+    extensions: [".js", ".json"]
+  }
 };

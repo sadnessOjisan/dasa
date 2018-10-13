@@ -21,7 +21,7 @@
     "build": "webpack",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook", 
-    "format": "prettier --write '**/*.js'",
+    "format": "prettier --write '**/*.js'"
   },
   "peerDependencies": {
     "react": "^16.5.2",
