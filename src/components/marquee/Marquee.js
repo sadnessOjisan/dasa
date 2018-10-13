@@ -10,7 +10,7 @@ const Marquee = (props) => {
 }
 
 const Move = keyframes`
-position: absolute;
+
   0% {
     position: absolute;
     left: 0%;
@@ -23,6 +23,7 @@ position: absolute;
 `;
 
 const Wrapper = styled.div`
+position: absolute;
 animation: ${Move} 10s infinite linear;
 > * {
     position: absolute;
