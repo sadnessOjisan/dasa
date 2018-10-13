@@ -14,7 +14,7 @@ storiesOf('OutlineText', module)
       Hello OutlineText
     </OutlineText>
   ))
-  .add('inneryred', () => (
+  .add('inner red', () => (
     <OutlineText size={36} strokeWidth={2} inlineColor='red' outlineColor='blue'>
       Hello OutlineText
     </OutlineText>
