@@ -11,6 +11,7 @@ const Center = (props) => {
 
 const Wrapper = styled.div`
   display: flex;
+  height: 100%;
   align-items: ${props => props.vertical && 'center'}; 
   justify-content: ${props => props.horizontal && 'center'}; 
 `
