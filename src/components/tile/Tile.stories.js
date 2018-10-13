@@ -7,7 +7,11 @@ import example_image from './example_image.png'
 
 storiesOf('Tile', module)
   .add('repeat', () => (
-    <Tile image={example_image} isGlobal>
+    <Tile image={example_image}>
+      😀 😎 👍 💯
+    </Tile>
+  )).add('repeat globally', () => (
+    <Tile image={example_image} isGlobal={true}>
       😀 😎 👍 💯
     </Tile>
   ));
