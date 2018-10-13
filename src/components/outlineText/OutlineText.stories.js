@@ -9,4 +9,13 @@ storiesOf('OutlineText', module)
     <OutlineText size={36} strokeWidth={2} inlineColor='white' outlineColor='red'>
       Hello OutlineText
     </OutlineText>
+  )).add('blue', () => (
+    <OutlineText size={36} strokeWidth={2} inlineColor='white' outlineColor='blue'>
+      Hello OutlineText
+    </OutlineText>
+  ))
+  .add('inneryred', () => (
+    <OutlineText size={36} strokeWidth={2} inlineColor='red' outlineColor='blue'>
+      Hello OutlineText
+    </OutlineText>
   ));
