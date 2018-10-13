@@ -1,20 +1,27 @@
 
 import React from 'react';
-import styled from 'styled-components'
+import styled, {keyframes}  from 'styled-components'
 
 const GradationText = (props) => {
-    const {className, children, colorArray} = props
+    const {className, children, colorArray, isAnimate} = props
     return (
-        <StyledText className={className} colorArray={colorArray}>
+        <StyledText className={className} colorArray={colorArray} isAnimate={isAnimate}>
           {children}
         </StyledText>)
 }
 
 const StyledText = styled.span`
-color: #FF8C00;
 background: -webkit-linear-gradient(0deg, ${props=>props.colorArray[0]}, ${props=>props.colorArray[1]}, ${props=>props.colorArray[2]});
 -webkit-background-clip: text;
+background-size: 200% auto;
 -webkit-text-fill-color: transparent;
+animation: ${props => props.isAnimate && `${move} 1s linear infinite reverse`};
 `
+
+const move = keyframes`
+to {
+  background-position: 200% center;
+}
+`;
 
 export default GradationText;

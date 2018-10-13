@@ -9,4 +9,8 @@ storiesOf('GradationText', module)
     <GradationText colorArray={['red', 'blue', 'green']}>
       Hello GradationText
     </GradationText>
+  )) .add('GradationText animation', () => (
+    <GradationText colorArray={['red', 'blue', 'green']} isAnimate={true}>
+      Hello GradationText
+    </GradationText>
   ))

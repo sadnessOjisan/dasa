@@ -5,9 +5,7 @@ Build ghost house in React, with the tears 😂
 In Japan, it is famous 'ghost house website' (in Japanese this means 'Web廃墟' ). This Library is utility for build ghost house website. 
 
 ## what is 'ghost house website' 
-just like this😂
-
-[ダイミダラー](http://penguin-empire.com/)
+just like [ダイミダラー](http://penguin-empire.com/) 😂
 
 So, 'ghost house website' means old fashion website, just like you browsed in 1990 ~ 2000. 
 
