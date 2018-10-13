@@ -10,4 +10,12 @@ storiesOf('Font', module)
     <Font color='red'>
       Hello Font
     </Font>
-  ));
+  )).add('large', () => (
+    <Font size={99}>
+      Hello Font
+    </Font>
+  )).add('large blue', () => (
+    <Font size={99} color='blue'>
+      Hello Font
+    </Font>
+  ))
