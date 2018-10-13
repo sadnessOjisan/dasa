@@ -6,7 +6,7 @@ import GradationText from './GradationText';
 
 storiesOf('GradationText', module)
   .add('GradationText', () => (
-    <GradationText>
+    <GradationText colorArray={['red', 'blue', 'green']}>
       Hello GradationText
     </GradationText>
   ))
