@@ -13,6 +13,7 @@ const Background = styled.div`
 background-repeat: repeat;
 background-image: url(${props => props.image});
 height: 100%;
+width: 100%;
 min-height: ${props => props.isGlobal && '100vh'};
 `
 
