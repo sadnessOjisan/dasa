@@ -8,6 +8,8 @@ import OutlineText from "./components/outlineText/OutlineText";
 import GradationText from "./components/gradationText/GradationText";
 import Rotator from "./components/rotator/Rotator";
 import Zoom from "./components/zoom/Zoom";
+import Title from "./components/title";
+import Color from "./components/color";
 
 export {
   Center,
@@ -19,5 +21,7 @@ export {
   OutlineText,
   GradationText,
   Rotator,
-  Zoom
+  Zoom, 
+  Title, 
+  Color
 };
