@@ -23,7 +23,7 @@ position: absolute;
 `;
 
 const Wrapper = styled.div`
-animation: ${Move} 10s infinite;
+animation: ${Move} 10s infinite linear;
 > * {
     position: absolute;
 }
