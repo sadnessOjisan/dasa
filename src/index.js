@@ -11,6 +11,7 @@ import Zoom from "./components/zoom/Zoom";
 import Title from "./components/title";
 import Color from "./components/color";
 import Area from "./components/area/Area";
+import Image from "./components/image/Image";
 
 export {
   Center,
@@ -25,5 +26,6 @@ export {
   Zoom,
   Title,
   Color,
-  Area
+  Area, 
+  Image
 };
