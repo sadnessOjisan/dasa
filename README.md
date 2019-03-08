@@ -1,3 +1,6 @@
+this repo is deprecated. 
+you should use [this](https://github.com/sadnessOjisan/re-geo). 
+
 # dasa
 Build ghost house in React, with the tears 😂
 
